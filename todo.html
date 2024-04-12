@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYToDo_List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <fieldset>
+    <legend>MY_TO_DO_LIST</legend>
+    <div class="wrapper">
+        
+        <input id="taskname" type="text" placeholder="enter task">
+
+    
+       <img    onclick="addtodo()"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAiBJREFUWEftmD0sZUEUx3/iIyFCohGNYhUUCo2PAkuj0IiWRCNUFDRKtt1OQkRHslttIxofiY2PCNlFJxGFBAUKERESiay9R85L5l333Zl394q38ia5uZk5H/N//zln7jkvhwwbORmGh/8SUDPQDci7GihNk9Vb4AjYAn4Av8LswxiqAeaAxjQB2NRXgEHgLEgxFaA6YA0os3mPKL8A2oBjv30QoCqlNQHmEZgFJoGTiAA+AaPAAFCgPoShBuDK9BkEaNc4pnOgQ2MgIpYks1pg1fuBFbq6CHSFARLhgio8KbCDOJAYPlqBDWNeD+wl5n6GvgG9KpwChmMGk3D33YufHp18BcZSAToFKlUo9B46AJLglEfGuj42s3bgpyr91lh6mfoZugeKVDEX+GPz7MkngHHV+6Jzm5kkzLUq3ZjZ7Af0bHhyvcWjAJJtAvfKAjJO4OMxZGaTGbSy/lkX5H6RTPOPoOz7Z4bM4LVlkV8elH0fD1DGHVmqY8reQ7YAzjL0FgwVA3fqWN4liU3i+JZFKT+agB0FISWOlDqB5UeUr72NwSD5vFef96lgGhh6T0AtwKaBUvq97fcCJO3VMlCuAJa8DqfTpDCOGHI5Mul4R4B+IE8NpKORAj+0DTJjyGWjqDqXXuchdbW02EnDz9ADUBh1F0c7aaWlYRSGXg0/oBmlNd/RuYuaFPHChASy/NmwH2bkWsi7bByLThaQjca/tPCCJT+CngcAAAAASUVORK5CYII="/>
+      
+        
+    
+        <div class="listclass">
+        <ul id="mytask"></ul>
+        </div>
+        <div class="listclass">
+            <h2>Completed Tasks</h2>
+            <ul id="completedTasks"></ul>
+        </div>
+    </div>
+  </fieldset>
+    <script src="todo.js"></script>
+</body>
+</html>

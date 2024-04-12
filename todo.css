@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(to bottom, #ff7e5f, #feb47b);
+    
+}
+.wrapper {
+    
+   padding: 20px 20px 20px 20px;
+   height: 70vh;
+
+}
+
+.wrapper input {
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 2px black;
+    background: transparent;
+}
+button{
+    margin-right: 18px;
+    height: 40px;
+    width: 90px;
+    background: transparent;
+    border-radius: 20px;
+    
+    
+
+
+}
+
+#taskname{
+    margin-bottom: 25px;
+    margin-left: 90px;
+}
